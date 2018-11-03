@@ -55,9 +55,11 @@
   <ItemGroup>
      <Compile Include="Assets\PreFab\GameManager.cs" />
      <Compile Include="Assets\Scripts\CollisionComponent.cs" />
+     <Compile Include="Assets\Scripts\Credits.cs" />
      <Compile Include="Assets\Scripts\EndTrigger.cs" />
      <Compile Include="Assets\Scripts\followpl.cs" />
      <Compile Include="Assets\Scripts\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
  <Reference Include="UnityEditor.StandardEvents">

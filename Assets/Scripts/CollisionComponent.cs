@@ -6,7 +6,6 @@ public class CollisionComponent : MonoBehaviour {
 			
 		Debug.Log(collision.collider.tag);
 		if(collision.collider.tag == "obstacle") {
-			Debug.Log("------------->");
 			movement.enabled = false;
 			FindObjectOfType<GameManager>().EndGame();
 		}
